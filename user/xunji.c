@@ -1,18 +1,19 @@
 #include "headfile.h"
 
-#define LINE_BASE_PWM      2000
-#define LINE_KP            28
-#define LINE_KD            4
-#define LINE_PWM_LIMIT     2600
+/* 可承重140克，基础速度1500 */
+#define LINE_BASE_PWM     1500
+#define LINE_KP            12 
+#define LINE_KD            16
+#define LINE_PWM_LIMIT     2000
 #define LINE_CROSS_COUNT   5
 #define TURN_BASE_SPEED    22
-#define LINE_TURN_SLOW_ERROR   20
-#define LINE_TURN_BASE_PWM     1100
-#define LINE_SHARP_ERROR       30
-#define LINE_SHARP_PWM         1750
+#define LINE_TURN_SLOW_ERROR   16
+#define LINE_TURN_BASE_PWM    975
+#define LINE_SHARP_ERROR       26
+#define LINE_SHARP_PWM         1650
 #define LINE_SHARP_LOST_PWM    2050
-#define LINE_SHARP_BRAKE_TICKS 2
-#define LINE_SHARP_EXIT_TICKS  2
+#define LINE_SHARP_BRAKE_TICKS 4
+#define LINE_SHARP_EXIT_TICKS  3
 #define LINE_CROSS_CONFIRM_TICKS 3
 #define LINE_CROSS_RELEASE_TICKS 3
 #define LINE_SEARCH_OUTER_PWM  1200
