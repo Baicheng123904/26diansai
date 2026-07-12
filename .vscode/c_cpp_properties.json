@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "MSPM0G3507",
+            "includePath": [
+                "${workspaceFolder}/user",
+                "${workspaceFolder}/code",
+                "${workspaceFolder}/ml_libs",
+                "${workspaceFolder}/m0_sdk/source",
+                "${workspaceFolder}/m0_sdk/source/third_party/CMSIS/Core/Include"
+            ],
+            "defines": [
+                "__MSPM0G3507__",
+                "__USE_SYSCONFIG__"
+            ],
+            "intelliSenseMode": "windows-clang-arm",
+            "cStandard": "c99"
+        }
+    ],
+    "version": 4
+}
