@@ -1,6 +1,6 @@
 #include "headfile.h"
 
-#define LINE_BASE_PWM      1500
+#define LINE_BASE_PWM      2000
 #define LINE_KP            28
 #define LINE_KD            4
 #define LINE_PWM_LIMIT     2600
